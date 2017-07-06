@@ -13,7 +13,7 @@ class Square extends Component {
   render() {
     if (this.props.piece === '-') {
       return (
-        <span className="square" onClick={this.handleClick}>-</span>
+        <span className="square virtualPlaceholder" onClick={this.handleClick}></span>
       );
     } else if (this.props.piece === 'x') {
       return (
