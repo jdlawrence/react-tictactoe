@@ -53,12 +53,12 @@ class Board extends Component {
                   num={0}
                   piece={this.state.pieces[0]}
                   changeSquare={this.changeSquare}
-                /> |
+                /> {''.replace(/ /g, "\u00a0")}
                 <Square
                   num={1}
                   piece={this.state.pieces[1]}
                   changeSquare={this.changeSquare}
-                /> |
+                /> {''.replace(/ /g, "\u00a0")}
                  <Square
                   num={2}
                   piece={this.state.pieces[2]}
@@ -72,12 +72,12 @@ class Board extends Component {
                   num={3}
                   piece={this.state.pieces[3]}
                   changeSquare={this.changeSquare}
-                /> |
+                /> {''.replace(/ /g, "\u00a0")}
                 <Square
                   num={4}
                   piece={this.state.pieces[4]}
                   changeSquare={this.changeSquare}
-                /> |
+                /> {''.replace(/ /g, "\u00a0")}
                  <Square
                   num={5}
                   piece={this.state.pieces[5]}
@@ -91,12 +91,12 @@ class Board extends Component {
                   num={6}
                   piece={this.state.pieces[6]}
                   changeSquare={this.changeSquare}
-                /> |
+                /> {''.replace(/ /g, "\u00a0")}
                 <Square
                   num={7}
                   piece={this.state.pieces[7]}
                   changeSquare={this.changeSquare}
-                /> |
+                /> {''.replace(/ /g, "\u00a0")}
                  <Square
                   num={8}
                   piece={this.state.pieces[8]}
