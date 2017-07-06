@@ -9,6 +9,17 @@
   margin: auto;
 }
 
-.square {
-  width: 100px;
+table {
+  table-layout: fixed;
+}
+
+td {
+  width: 1000px;
+}
+
+.virtualPlaceholder {
+    display: inline-block;
+    height:200px;
+    width:200px;
+    background:#4d8cf2;
 }
